@@ -1,0 +1,17 @@
+.font-1-l {
+  font: 700 1.5rem/1.75 "Merriweather Sans", sans-serif;
+}
+
+.font-1-m {
+  font: 400 1.125rem/1.5 "Merriweather Sans", sans-serif;
+}
+
+.font-1-s,
+.font-1-s-b {
+  font: 300 1.125rem/1.5 "Merriweather Sans", sans-serif;
+  /* font: 300 0.625rem/1.5 "Merriweather Sans", sans-serif; */
+}
+
+.font-1-s-b {
+  font-weight: 700;
+}
