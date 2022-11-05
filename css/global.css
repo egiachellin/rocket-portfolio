@@ -13,7 +13,7 @@ a {
 }
 
 a:visited {
-  color: inherit;
+  color: var(--cor-2);
 }
 
 a:hover {
