@@ -16,7 +16,8 @@
   font-weight: 700;
 }
 
-.font-1-xs {
+.font-1-xs,
+.font-1-xs-b {
   font: 300 0.8rem/1 "Merriweather Sans", sans-serif;
 }
 
