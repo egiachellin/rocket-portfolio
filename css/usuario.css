@@ -1,0 +1,55 @@
+.usuario-apresentacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0px;
+  border-radius: 20px;
+}
+
+.usuario-apresentacao h1 {
+  margin-top: 30px;
+}
+
+.usuario-apresentacao p {
+  margin-top: 10px;
+}
+
+.usuario-redes {
+  margin-top: 30px;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.usuario-redes ul {
+  display: grid;
+  gap: 24px;
+}
+
+.usuario-redes li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.usuario-tecnologias {
+  margin-top: 30px;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.usuario-tecnologias ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.usuario-tecnologias li {
+  min-width: 100px;
+  max-width: 100px;
+  padding: 6px;
+  background-color: var(--cor-4);
+  border-radius: 30px;
+}
