@@ -7,21 +7,25 @@
   border-radius: 20px;
 }
 
-.projetos-item {
+.projetos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
-.projetos-conteudo {
+.projetos-item {
   padding: 30px;
   border-radius: 20px;
   margin-bottom: 30px;
 }
 
-.projetos-conteudo h3 {
+.projetos-item h3 {
   display: flex;
   align-items: center;
   gap: 16px;
   margin-bottom: 20px;
+}
+
+.projetos-item p {
+  margin-bottom: 40px;
 }
