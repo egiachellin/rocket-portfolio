@@ -1,10 +1,6 @@
 @import "./global.css";
-
-@import "./main.css";
-
 @import "./usuario.css";
-
 @import "./projetos.css";
-
+@import "./publicacoes.css";
 @import "./cores.css";
 @import "./tipografias.css";
