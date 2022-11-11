@@ -29,3 +29,22 @@
 .projetos-item p {
   margin-bottom: 40px;
 }
+
+@media (max-width: 1200px) {
+  .projetos-header,
+  .projetos-item {
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+
+  .projetos {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .projetos {
+    grid-template-columns: 1fr;
+    gap: initial;
+  }
+}

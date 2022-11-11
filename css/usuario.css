@@ -54,3 +54,16 @@
   background-color: var(--cor-4);
   border-radius: 30px;
 }
+
+@media (max-width: 1000px) {
+  .usuario-apresentacao,
+  .usuario-redes {
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+
+  .usuario-tecnologias {
+    padding: 16px;
+    margin-bottom: initial;
+  }
+}
