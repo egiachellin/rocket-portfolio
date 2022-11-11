@@ -1,7 +1,26 @@
-.publicacoes {
+.btn-publicacoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: none;
+  cursor: pointer;
   padding: 30px;
   border-radius: 20px;
   margin-bottom: 30px;
+}
+
+.btn-publicacoes::after {
+  content: "";
+  /* display: inline-block; */
+  width: 14px;
+  height: 6px;
+  background: url("/img/seta-abrir.svg");
+  transition: 0.3s;
+}
+
+.btn-publicacoes:hover::after {
+  transform: rotate(180deg);
 }
 
 .publicacoes-conteudo {
@@ -13,10 +32,19 @@
   border-radius: 20px;
 }
 
+.display-none {
+  display: none;
+}
+
 .publicacoes-item h3 {
   margin-bottom: 4px;
 }
 
 .publicacoes-item p {
   margin-bottom: 28px;
+}
+
+.publicacoes-tags {
+  display: flex;
+  gap: 20px;
 }
