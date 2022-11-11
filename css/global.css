@@ -20,6 +20,10 @@ a:hover {
   color: var(--cor-3);
 }
 
+img {
+  border-radius: 50%;
+}
+
 .container {
   display: grid;
   grid-template-columns: minmax(400px, 1fr) 3fr;
